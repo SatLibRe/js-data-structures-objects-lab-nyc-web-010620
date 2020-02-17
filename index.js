@@ -15,5 +15,6 @@ function updateDriverWithKeyAndValue(driver, key, value){
 function deleteFromDriverByKey(driver, key){
   const newObj = Object.assign({}, driver, { [key]: "" } )
   delete newObj.key
+  return newObj
 }
 
