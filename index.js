@@ -12,5 +12,7 @@ function updateDriverWithKeyAndValue(driver, key, value){
   return newObj
 }
 
-function
+function deleteFromDriverByKey(driver, key){
+  
+}
 
